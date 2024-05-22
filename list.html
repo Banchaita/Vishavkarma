@@ -1,0 +1,39 @@
+<ul role="listbox" class="ant-select-dropdown-menu  ant-select-dropdown-menu-root ant-select-dropdown-menu-vertical"
+    tabindex="0">
+    
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dropdown Menu Example</title>
+        <style>
+            /* Basic styling for the select element */
+            select {
+                width: 200px;
+                padding: 5px;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <label for="locations">Choose a location:</label>
+        <select id="locations">
+            
+        </select>
+    
+        <script>
+            // JavaScript to handle the selection of an option
+            document.getElementById('locations').addEventListener('change', function() {
+                const selectedValue = this.value;
+                console.log('You selected:', selectedValue);
+                // Add any additional logic you need when an option is selected
+            });
+        </script>
+    
+    </body>
+    </html>
+    
+        
